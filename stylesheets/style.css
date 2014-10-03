@@ -1,0 +1,56 @@
+@import url("http://getbootstrap.com/dist/css/bootstrap.css");
+/* line 3, ../sass/style.scss */
+.myForm, .register .backend {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+
+/* line 11, ../sass/style.scss */
+h1 h2 {
+  text-align: center;
+}
+
+/* line 18, ../sass/style.scss */
+.backend ul {
+  text-align: right;
+}
+
+/* line 23, ../sass/style.scss */
+#registerButton {
+  position: relative;
+  left: 15px;
+}
+
+/* line 28, ../sass/style.scss */
+#nav {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+/* line 35, ../sass/style.scss */
+#nav .container {
+  width: 1080px;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+/* line 42, ../sass/style.scss */
+#nav .logo {
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+  float: left;
+}
+
+/* line 51, ../sass/style.scss */
+.myBlock {
+  width: 100%;
+  height: 500px;
+}
+
+/* line 56, ../sass/style.scss */
+.test {
+  font-size: 12px;
+}

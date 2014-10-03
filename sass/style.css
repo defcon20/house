@@ -1,0 +1,40 @@
+@import url("http://getbootstrap.com/dist/css/bootstrap.css");
+.myForm, .register .backend {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center; }
+
+h1 h2 {
+  text-align: center; }
+
+.backend ul {
+  text-align: right; }
+
+#registerButton {
+  position: relative;
+  left: 15px; }
+
+#nav {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  overflow: hidden; }
+  #nav .container {
+    width: 1080px;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden; }
+  #nav .logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    float: left; }
+
+.myBlock {
+  width: 100%;
+  height: 500px; }
+
+.test {
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */

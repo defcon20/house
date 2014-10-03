@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css">
+    <link rel = "stylesheet" type = "text/css" href = "stylesheets/style.css">
+    <title>Smart House System</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+</head>
+
+<body>
+
+<!-- This is the nav bar-->
+
+<div id="nav" class = "navbar navbar-fixed-top mainNavTop">
+    <div class="container">
+
+        <div class = "logo">
+            <img src="images/logo.png" class="logoImg" alt="Smart Path">
+        </div>
+
+        <div class="navbar navMenu">
+            <ul class = "nav navbar-nav">
+                <li><a href="#" class="scroll-link" data-id="A">About</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+<!-- This is the loginPage -->
+
+<div class="myForm">
+    <h1>Login Page</h1>
+
+    <p class="alert-warning warning"></p>
+    <ul class="list-unstyled">
+        <li>
+            <label>Username</label>
+            <input type="text" id="username" />
+        </li>
+        <li>
+            <label>Password</label>
+            <input type="password" id="password" />
+        </li>
+        <li>
+            <input type="submit" class="btn" id="loginSubmit" value="login" />
+            <input type="button" class="btn" id="registerButton" value="register" />
+        </li>
+    </ul>
+</div>
+
+<!-- This is the Register Page -->
+
+<div class="register">
+    <h1>Register New User</h1>
+
+    <p class="alert-warning warning"></p>
+    <ul class="list-unstyled">
+        <li>
+            <label>Your Username</label>
+            <input type="text" id="regUsername" />
+        </li>
+        <li>
+            <label>Your Password</label>
+            <input type="password" id="regPassword" />
+        </li>
+        <li>
+            <input type="submit" id="registerSubmit" class="btn" value="finish registration" />
+        </li>
+    </ul>
+</div>
+
+<!-- This is the backend -->
+
+<div class="backend">
+    <h1>Welcome <span class="phName"></span></h1>
+
+    <div class="SecurityAlert">
+        <p style="color:red; font-size:30px">Security Alert! We are contacting police now. You have <span class="secondsLeft"></span> seconds to cancel request.</p>
+        <input type="button" class="btn" id="cancelButton" value="Click here to Cancel" />
+    </div>
+    <ul class="list-unstyled list-inline">
+        <li>
+            <input type="submit" class="btn" id="logoutButton" value="Logout" />
+        </li>
+        <li>
+            <input type="submit" class="btn" id="helpButton" value="Help" />
+        </li>
+    </ul>
+    <div id="electricChart"></div>
+    <div id="waterChart"></div>
+    <div id="tempChart"></div>
+</div>
+
+<!-- This is the help Page -->
+<div class="help">
+    <input type="button" class="btn" id="homeButton" value="Home" />
+    <h1>Help</h1>
+    <div>This is the help section.</div>
+</div>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type = "text/javascript" src ="js/bootstrap.min.js"></script>
+    <script type = "text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+    <script type = "text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script type = "text/javascript" src ="js/pageControl.js"></script>
+    <script type = "text/javascript" src ="js/navBar.js"></script>
+
+
+</body>
+</html>
